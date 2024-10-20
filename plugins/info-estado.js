@@ -31,9 +31,9 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` ${tradutor.texto1[0]}
 
-  ${tradutor.texto1[1]} _*Lushita25*_
+  ${tradutor.texto1[1]} 𝐋𝐮𝐳𝐢𝐭𝐚 𝐁𝐨𝐭
   ${tradutor.texto1[2]} +51930786837
-  ${tradutor.texto1[3]} https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY
+  ${tradutor.texto1[3]} https://www.instagram.com/luzitha25/
 
   ${tradutor.texto1[4]} ${rtime}
   ${tradutor.texto1[5]} ${uptime}
@@ -63,7 +63,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY` },
+    document: { url: `https://www.instagram.com/luzitha25/` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -72,13 +72,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY",
+        mediaUrl: "https://www.instagram.com/luzitha25/",
         mediaType: 2,
         previewType: "pdf",
-        title: "_*Lushita25*_",
+        title: "𝐋𝐮𝐳𝐢𝐭𝐚 𝐁𝐨𝐭",
         body: tradutor.texto2,
         thumbnail: imagen1,
-        sourceUrl: "https://chat.whatsapp.com/CCDGO1lIuH3Ggr4nA44cbY",
+        sourceUrl: "https://www.instagram.com/luzitha25/",
       },
     },
     caption: info,
